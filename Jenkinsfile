@@ -59,17 +59,13 @@ pipeline {
             }
         }
 
-        stage('SonarQube scanning') {
-            steps {
-                withSonarQubeEnv('SonarQube') {
-                    withCredentials([string(credentialsId: 'sonarqube-token', variable: 'SONAR_TOKEN')]) {
-                        sh """mvn sonar:sonar \
-                                  -Dsonar.projectKey=sonar \
-                                  -Dsonar.host.url=http://174.129.170.42:9000 \
-                                  -Dsonar.login=0b9ba33a899b9a0752c608fa4fb5f1ef67c091ce"""
-                    }
-                }
-            }
+        stage('SonarQube Scan') {
+          steps {
+            sh """mvn sonar:sonar \
+                      -Dsonar.projectKey=sonar \
+                      -Dsonar.host.url=http://174.129.170.42:9000 \
+                      -Dsonar.login=0b9ba33a899b9a0752c608fa4fb5f1ef67c091ce"""
+          }
         }
 
         stage('Quality Gate') {
