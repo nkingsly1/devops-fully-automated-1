@@ -60,7 +60,7 @@ under the License.
        <repository>
          <id>nexus-snapshot-repo</id>
          <name>maven_project</name>
-         <url>http://172.31.26.156:8081/repository/maven-project/</url>
+         <url>http://34.228.158.39:8081/repository/maven_project/</url>
        </repository>
     
      </repositories>
@@ -71,7 +71,7 @@ under the License.
        <repository>
          <id>nexus-release-repo</id>
          <name>maven_project</name>
-         <url>http://172.31.26.156:8081/repository/maven-project/</url>
+         <url>http://34.228.158.39:8081/repository/maven_project/</url>
        </repository>
      </repositories>
    </profile>
