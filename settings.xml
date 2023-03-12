@@ -38,7 +38,7 @@ under the License.
     <mirror>
         <id>nexus</id>
         <name>nexus</name>
-        <url>http://34.228.158.39:8081/repository/maven-snapshots/</url>
+        <url>http://34.228.158.39:8081/repository/maven-project/</url>
         <mirrorOf>*</mirrorOf>
     </mirror>
   </mirrors>
