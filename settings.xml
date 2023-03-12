@@ -28,7 +28,7 @@ under the License.
   </proxies>
   <servers>
     <server>
-      <id>nexusdeploymentrepo</id>
+      <id>nexus</id>
       <username>admin</username>  <!-- Provide Your Nexus Repository Server Username and Password -->
       <password>admin</password>
     </server>
