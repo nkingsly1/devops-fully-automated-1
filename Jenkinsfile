@@ -70,7 +70,7 @@ pipeline {
 
         stage('Upload to Artifactory to Nexus') {
           steps {
-            sh "mvn clean deploy -DskipTests  -X"
+            sh "mvn clean deploy -DskipTests -s settings.xml -X"
           }
 
         }
