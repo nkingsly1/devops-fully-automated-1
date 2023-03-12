@@ -1,177 +1,37 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-<title>Page Title</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-/* Header/logo Title */
-.header {
-  padding: 80px;
-  text-align: center;
-  background: #E97777;
-  color: white;
-}
-/* Increase the font size of the heading */
-.header h1 {
-  font-size: 50px;
-}
-</style>
-</head>
-<body>
-<div class="header">
-  <h1>Hello Bluewave Family !!!</h1>
-  <p>This Java Web Application Was Deployed Using CI/CD</p>
-  
-</div>
-</body>
-</html> -->
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<title>W3.CSS Template</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
-</style>
-</head>
-<body class="w3-light-grey">
-
-<!-- Page Container -->
-<div class="w3-content w3-margin-top" style="max-width:1400px;">
-
-  <!-- The Grid -->
-  <div class="w3-row-padding">
-  
-    <!-- Left Column -->
-    <div class="w3-third">
+<form action="action_page.php">
+  <div class="container">
+    <h1>New Bluewave Student Register for DevOps Learning</h1>
+    <p>Please fill in this form to create a student account.</p>
+    <hr>
+     
+    <label for="Name"><b>Enter Name</b></label>
+    <input type="text" placeholder="Enter Full Name" name="Name" id="Name" required>
+    <br>
     
-      <div class="w3-white w3-text-grey w3-card-4">
-        <div class="w3-display-container">
-          <emmg src="/w3images/avatar_hat.jpg" style="width:100%" alt="Avatar">
-          <div class="w3-display-bottomleft w3-container w3-text-black">
-            <h2>Jane Doe</h2>
-          </div>
-        </div>
-        <div class="w3-container">
-          <p><em class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></em>Designer</p>
-          <p><em class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></em>London, UK</p>
-          <p><em class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></em>ex@mail.com</p>
-          <p><em class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></em>1224435534</p>
-          <hr>
+    <label for="mobile"><b>Enter mobile</b></label>
+    <input type="text" placeholder="Enter moible number" name="mobile" id="mobile" required>
+    <br>
 
-          <p class="w3-large"><strong><em class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></em>Skills</strong></p>
-          <p>Adobe Photoshop</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">90%</div>
-          </div>
-          <p>Photography</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">
-              <div class="w3-center w3-text-white">80%</div>
-            </div>
-          </div>
-          <p>Illustrator</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">75%</div>
-          </div>
-          <p>Media</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:50%">50%</div>
-          </div>
-          <br>
+    <label for="email"><b>Enter Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+    <br>
 
-          <p class="w3-large w3-text-theme"><strong><em class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></em>Languages</strong></p>
-          <p>English</p>
-          <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
-          </div>
-          <p>Spanish</p>
-          <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:55%"></div>
-          </div>
-          <p>German</p>
-          <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:25%"></div>
-          </div>
-          <br>
-        </div>
-      </div><br>
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+    <br>
 
-    <!-- End Left Column -->
-    </div>
-
-    <!-- Right Column -->
-    <div class="w3-twothird">
-    
-      <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><em class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></em>Work Experience</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><strong>Front End Developer / w3schools.com</strong></h5>
-          <h6 class="w3-text-teal"><em class="fa fa-calendar fa-fw w3-margin-right"></em>Jan 2015 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
-          <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><strong>Web Developer / something.com</strong></h5>
-          <h6 class="w3-text-teal"><em class="fa fa-calendar fa-fw w3-margin-right"></em>Mar 2012 - Dec 2014</h6>
-          <p>Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><strong>Graphic Designer / designsomething.com</strong></h5>
-          <h6 class="w3-text-teal"><em class="fa fa-calendar fa-fw w3-margin-right"></em>Jun 2010 - Mar 2012</h6>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p><br>
-        </div>
-      </div>
-
-      <div class="w3-container w3-card w3-white">
-        <h2 class="w3-text-grey w3-padding-16"><em class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></em>Education</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><strong>W3Schools.com</strong></h5>
-          <h6 class="w3-text-teal"><em class="fa fa-calendar fa-fw w3-margin-right"></em>Forever</h6>
-          <p>Web Development! All I need to know in one place</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><strong>London Business School</strong></h5>
-          <h6 class="w3-text-teal"><em class="fa fa-calendar fa-fw w3-margin-right"></em>2013 - 2015</h6>
-          <p>Master Degree</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><strong>School of Coding</strong></h5>
-          <h6 class="w3-text-teal"><em class="fa fa-calendar fa-fw w3-margin-right"></em>2010 - 2013</h6>
-          <p>Bachelor Degree</p><br>
-        </div>
-      </div>
-
-    <!-- End Right Column -->
-    </div>
-    
-  <!-- End Grid -->
+    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+    <hr>
+    <br>
+    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+    <button type="submit" class="registerbtn">Register</button>
   </div>
+  <div class="container signin">
+    <p>Already have an account? <a href="#">Sign in</a>.</p>
+  </div>
+
+   <h1> Thank you, Happy Learning from Bluewave Tech </h1>
+
   
-  <!-- End Page Container -->
-</div>
-
-<footer class="w3-container w3-teal w3-center w3-margin-top">
-  <p>Find me on social media.</p>
-  <em class="fa fa-facebook-official w3-hover-opacity"></em>
-  <em class="fa fa-instagram w3-hover-opacity"></em>
-  <em class="fa fa-snapchat w3-hover-opacity"></em>
-  <em class="fa fa-pinterest-p w3-hover-opacity"></em>
-  <em class="fa fa-twitter w3-hover-opacity"></em>
-  <em class="fa fa-linkedin w3-hover-opacity"></em>  
-</footer>
-
-</body>
-</html>
-
-
-<!-- https://www.w3schools.com/w3css/tryw3css_templates_cv.htm -->
+</form>
