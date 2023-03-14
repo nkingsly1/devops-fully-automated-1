@@ -42,7 +42,7 @@
     - Instance type: t2.micro
     - Security Group (Open): 8080, 9100 and 22 to 0.0.0.0/0
     - Key pair: Select or create a new keypair
-    - User data (Copy the following user data): https://github.com/cvamsikrishna11/devops-fully-automated/blob/installations/deployment-servers-setup.sh
+    - User data (Copy the following user data): https://github.com/mariusforreal/devops-fully-automated-1-scripts/blob/main/deployment-servers-setup.sh
     - Launch Instance
     - After launching this Jenkins servers, attach a tag as **Key=Environment, value=dev/stage/prod** ( out of 6, each 2 instances could be tagges as one env)
 
