@@ -60,7 +60,7 @@
     - Instance type: t2.micro
     - Security Group (Open): 3000 and 22 to 0.0.0.0/0
     - Key pair: Select or create a new keypair
-    - User data (Copy the following user data): https://github.com/cvamsikrishna11/devops-fully-automated/blob/installations/grafana-setup.sh
+    - User data (Copy the following user data): https://github.com/mariusforreal/devops-fully-automated-1-scripts/blob/main/grafana-setup.sh
     - Launch Instance
 
 8) ###### Slack 
@@ -112,8 +112,6 @@
         **JDK** --> Add JDK --> Make sure **Install automatically** is enabled --> 
         
         **Note:** By default the **Install Oracle Java SE Development Kit from the website** make sure to close that option by clicking on the image as shown below.
-
-        ![JDKSetup!](https://github.com/cvamsikrishna11/devops-fully-automated/blob/main/jdk_setup.png)
 
         * Click on Add installer
         * Select Extract *.zip/*.tar.gz --> Fill the below values
